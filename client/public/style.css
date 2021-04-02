@@ -1,0 +1,17 @@
+.scroll-btn {
+  font-size: 3rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.scroll-btn:hover {
+  color: gray;
+}
+
+@media screen and (max-width: 787px) {
+  .scroll-btn {
+    opacity: 0;
+  }
+}

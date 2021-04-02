@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+/* navbar */
+.nav {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.nav_coll {
+  margin-right: 4rem !important;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+}
+.active-nav {
+  text-decoration: none !important;
+  font-size: 1.2rem !important;
+  color: black;
+}
+.active-nav:hover {
+  border-bottom: 2px solid rgb(19, 107, 221);
+}
+
+.active {
+  color: rgb(19, 107, 221);
+}
+
+.auth {
+  margin-right: 2rem;
+}
+
+.dropdown {
+  display: flex !important;
+  align-items: center !important;
+  font-size: 1.2rem;
+}
+
+.instagram {
+  margin-left: 0.2rem;
+  font-family: "Grand Hotel", cursive;
+  font-size: 1.8rem;
+}
+
+/* signup */
+.mycard {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.auth-card {
+  padding: 3rem;
+  text-align: center;
+  width: 30rem;
+  min-width: 400px;
+  margin: 1rem auto;
+}
+
+.instagram_head {
+  display: flex;
+  justify-content: center;
+  font-family: "Grand Hotel", cursive;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 1rem;
+}
+
+.swap {
+  margin-top: 1rem;
+}
+
+/* profile */
+.profile {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.profile_image {
+  height: 170px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+
+.profile_details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 85px;
+  border-bottom: 1px solid gray;
+}
+
+.activites {
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  max-width: 110%;
+}
+
+.follow {
+  margin-top: 0.5rem;
+}
+.bio {
+  font-size: 1.2rem !important;
+  margin-bottom: 1rem;
+}
+.name {
+  font-size: 1.9rem !important;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  grid-gap: 5px;
+}
+
+.item {
+  width: 30%;
+  border: 1px solid gray;
+}
+
+/* Home */
+.input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+}
+
+.input:focus {
+  border-color: rgba(165, 21, 158, 0.479);
+}
+
+.home {
+  margin: 6rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 3rem;
+}
+
+.home_name {
+  color: black !important;
+  cursor: pointer;
+}
+
+.home_name :hover {
+  color: rgb(55, 55, 219) !important;
+}
+
+.home_image {
+  height: 29rem;
+}
+
+.home-card {
+  padding: 2rem;
+  box-shadow: 0 8px 6px -6px gray;
+  width: 40rem;
+}
+
+.info {
+  margin-top: 1rem;
+}
+.post_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.time {
+  margin-left: 1rem;
+  opacity: 0.7;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search_image {
+  height: 40px;
+  width: 40px;
+}
+.search_name {
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  margin-right: 0.3rem;
+}
+.cross {
+  margin-top: 5px;
+}
+
+.cross_head {
+  margin-left: 27rem;
+}
+
+.cross_img {
+  font-size: 20px !important;
+  cursor: pointer;
+  margin-bottom: 2px !important;
+}
+.cross_img :hover {
+  color: red;
+}
+
+.bin {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.bin:hover {
+  color: red;
+}
+
+.card_container {
+  max-width: 50rem;
+  height: max-content;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.likes > h6 {
+  margin-top: 0.7rem;
+  margin-left: 0.4rem;
+  font-weight: bolder;
+}
+
+.caption {
+  margin: 0 5px 10px 0 !important;
+}
+.body_title {
+  font-size: 1.1rem !important;
+  margin-bottom: 8px !important;
+  margin-top: -2px;
+}
+.comment_name {
+  margin-left: 5px;
+}
+
+.border {
+  border-bottom: 1px solid grey;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.no_com {
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+
+/* spinner */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #9370db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ba55d3;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ff00ff;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* media Query */
+@media screen and (max-width: 600px) {
+  .profile_image {
+    height: 120px;
+    width: 120px;
+  }
+  .home-card {
+    width: 28rem;
+  }
+  .avatar {
+    height: 35px;
+    width: 35px;
+  }
+  .home_image {
+    height: 21rem;
+  }
+  .caption {
+    margin: 0 5px 10px 0 !important;
+    font-size: 22px !important;
+  }
+  .body_title {
+    font-size: 1rem !important;
+  }
+  .comment_name {
+    font-size: 0.9rem;
+  }
+  .comment_text {
+    font-size: 0.8rem;
+  }
+  .cross_img {
+    font-size: 17px !important;
+  }
+  .likes {
+    font-size: 14px;
+  }
+  .follow {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem !important;
+  }
+  .no_com {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name {
+    font-size: 1.5rem !important;
+  }
+  .bio {
+    font-size: 1rem !important;
+  }
+  .home_name {
+    font-size: 1.3rem;
+  }
+  .activity {
+    font-size: 0.8rem;
+  }
+  .home-card {
+    width: 25rem;
+  }
+  .home_image {
+    height: 18rem;
+  }
+  .caption {
+    font-size: 21px !important;
+  }
+  .body_title {
+    font-size: 0.9rem !important;
+    margin-top: 1px;
+  }
+  .cross_img {
+    font-size: 16px !important;
+  }
+  .likes {
+    font-size: 13px;
+  }
+  .follow {
+    font-size: 0.7rem !important;
+  }
+  .avatar {
+    height: 33px;
+    width: 33px;
+  }
+  .no_com {
+    font-size: 0.8rem;
+  }
+  .search_name {
+    font-size: 1.1rem;
+  }
+  .search_image {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media screen and (max-width: 436px) {
+  .profile_image {
+    height: 110px;
+    width: 110px;
+  }
+  .home_name {
+    font-size: 1.2rem;
+  }
+  .avatar {
+    height: 31px;
+    width: 31px;
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .bio {
+    font-size: 0.9rem !important;
+  }
+  .activity {
+    font-size: 0.7rem;
+  }
+  .home-card {
+    width: 23rem;
+  }
+  .no_com {
+    font-size: 0.7rem;
+  }
+  .home_image {
+    height: 17rem;
+  }
+  .caption {
+    font-size: 19px !important;
+  }
+  .body_title {
+    font-size: 0.8rem !important;
+  }
+  .comment_name {
+    font-size: 0.8rem;
+  }
+  .comment_text {
+    font-size: 0.7rem;
+  }
+  .cross_img {
+    font-size: 15px !important;
+  }
+  .follow {
+    font-size: 0.6rem !important;
+  }
+  .instagram_head {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .profile_image {
+    height: 100px;
+    width: 100px;
+  }
+  .home_name {
+    font-size: 1.1rem;
+  }
+  .avatar {
+    height: 30px;
+    width: 30px;
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .bio {
+    font-size: 0.7rem !important;
+  }
+  .activity {
+    font-size: 0.6 rem;
+  }
+  .home-card {
+    width: 20rem;
+  }
+  .home_image {
+    height: 15rem;
+  }
+  .follow {
+    margin-bottom: 0.2rem;
+    font-size: 0.5rem !important;
+  }
+  .instagram_head {
+    font-size: 1.8rem;
+  }
+  .no_com {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .home-card {
+    width: 18rem;
+  }
+  .avatar {
+    height: 27px;
+    width: 27px;
+  }
+  .home_name {
+    font-size: 0.9rem;
+  }
+  .home_image {
+    height: 12rem;
+  }
+  .likes {
+    font-size: 12px;
+  }
+  .follow {
+    margin-bottom: 0.3rem;
+    font-size: 0.5rem !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .profile_image {
+    height: 80px;
+    width: 80px;
+  }
+  .home-card {
+    width: 16rem;
+  }
+  .home_image {
+    height: 10rem;
+  }
+  .likes {
+    font-size: 10px;
+  }
+}
